@@ -1,3 +1,14 @@
+var numeros = 
+
+
+
+
+
+
+
+
+
+
 // Obtener los datos de localStorage
 let puntajes = JSON.parse(localStorage.getItem('bingoPuntajes')) || [];
 

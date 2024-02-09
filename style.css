@@ -2,15 +2,17 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     background-color: azure;
+    max-width: 1280px;
+    padding: 48px;
 }
 
 
-.header{
+.contenido_centrado{
     text-align: center;
     margin: 0;
 }
 
-.header h1{
+.contenido_centrado h1{
     font-size: 54px;
     font-weight: bold;
     color:goldenrod;
@@ -19,39 +21,43 @@ body{
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
-.header p{
+.contenido_centrado p{
     font-size: 15px;
     font-weight: lighter;
     margin:0;
     padding-bottom: 20px;
 }
 
-.scores{
+.contenido_izquierda{
     margin: 0;
     padding: 20px;
 }
 
-.scores table{
-    justify-content: center;
+.contenido_izquierda table{
     font-size: 15px;
     color:black;
     margin: 0;
+    display: flex;
+    justify-content:left;
+    align-items: start;
 }
 
-.scores h2{
+.contenido_izquierda h2{
     font-size: 20px;
     font-weight: bold;
     color:darkcyan;
     margin:0;
-    max-width: 1280px;
     padding-bottom: 20px;
+    display: flex;
+    justify-content:left;
+    align-items: start;
 }
 
-.players{
+.contenido_derecha{
     margin: 0;
     padding: 20px;
 }
-.players h2{
+.contenido_derecha h2{
     font-size: 20px;
     font-weight: bold;
     color:darkcyan;
@@ -59,22 +65,17 @@ body{
     padding: 20px;
 }
 
-.players p{
+.contenido_derecha p{
     font-size: 15px;
     font-weight: lighter;
     margin:0;
     padding: 20px;
 }
 
-.players label{
+.contenido_derecha label{
     font-size: 15px;
     font-weight: bold;
     color:black;
     margin:0;
 }
 
-
-.decoracion_derecha {
-    width: 400px;
-    height: 200px;
-  }
